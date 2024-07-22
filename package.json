@@ -4,8 +4,6 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@fastify/mongodb": "^8.0.0",
-    "fastify": "^4.28.1"
   },
   "scripts": {
     "start": "nodemon src/index.js",
