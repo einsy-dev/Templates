@@ -4,16 +4,26 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
     "fastify": "^4.28.1"
   },
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.8.0",
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3"
   }
 }
