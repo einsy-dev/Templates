@@ -26,4 +26,14 @@ const UserId = {
 	}
 };
 
+// const UserToFind = {
+// 	type: 'object',
+// 	properties: {
+// 		firstname: { type: 'string', default: null },
+// 		lastname: { type: 'string', default: null },
+// 		surname: { type: 'string', default: null },
+// 		email: { type: 'string', default: null }
+// 	}
+// };
+
 export { UserEntity, UserId };
